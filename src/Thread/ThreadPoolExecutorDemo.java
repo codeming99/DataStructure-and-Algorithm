@@ -39,5 +39,9 @@ public class ThreadPoolExecutorDemo {
         while(!executor.isTerminated()){}
 
         System.out.println("Finish all threads");
+
+
+        System.out.println("Max_memory="+Runtime.getRuntime().maxMemory()/(double)1024/1024+"M");
+        System.out.println("Total_memory="+Runtime.getRuntime().totalMemory()/(double)1024/1024+"M");
     }
 }

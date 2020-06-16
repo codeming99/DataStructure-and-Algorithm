@@ -1,4 +1,4 @@
-package algorithm;
+package datastructure.LinkedList;
 
 /**
  * 删除链表值为val的元素(没有使用虚拟头结点)

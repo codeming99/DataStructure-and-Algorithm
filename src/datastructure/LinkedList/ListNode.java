@@ -1,4 +1,4 @@
-package algorithm;
+package datastructure.LinkedList;
 
 public class ListNode {
     int val;

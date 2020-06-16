@@ -1,7 +1,7 @@
-package algorithm;
+package datastructure.LinkedList;
 
 public class Solution3debug {
-    public ListNode removeElements(ListNode head,int val,int depth){
+    public ListNode removeElements(ListNode head, int val, int depth){
 
         String depthString = generateDepthString(depth);
 
@@ -36,9 +36,8 @@ public class Solution3debug {
 
     private String generateDepthString(int depth) {
         StringBuilder res = new StringBuilder();
-        for(int i = 0;i < depth;i++){
             res.append("--");
-        }
+
         return res.toString();
     }
 

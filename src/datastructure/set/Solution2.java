@@ -1,4 +1,4 @@
-package algorithm;
+package datastructure.set;
 
 
 import java.util.TreeSet;
@@ -26,7 +26,7 @@ import java.util.TreeSet;
  *
  *
  */
-public class Solution7 {
+public class Solution2 {
 
     public int uniqueMorseRepresentations(String[] words) {
 
